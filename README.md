@@ -1,16 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔍 GitHub Perfil Finder
 
-Currently, two official plugins are available:
+Um projeto em **React** que permite pesquisar usuários do GitHub e visualizar seus perfis e repositórios de forma simples e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
+- Pesquisa de usuários do GitHub através de uma barra de busca estilizada.
+- Exibição do perfil do usuário (foto, nome, bio).
+- Listagem dos repositórios públicos com nome, linguagem e link direto para o GitHub.
+- Mensagens de erro amigáveis quando o usuário não é encontrado ou há problemas na API.
+- Simulação de carregamento com feedback visual.
 
-## React Compiler
+## 🛠️ Tecnologias utilizadas
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- CSS Modules para estilização isolada
+- API pública do [GitHub](https://docs.github.com/en/rest)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Demonstração
+![SearchBar](./public/demo.png)
 
-## Expanding the ESLint configuration
+## 📦 Como rodar o projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/github-perfil-finder.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o projeto:
+   ```bash
+   npm run dev
+  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estrutura de pastas
+```
+src/
+ ├── components/
+ │   ├── Perfil/
+ │   ├── ReposList/
+ │   └── SearchBar/
+ ├── App.jsx
+ ├── global.css
+```
+
+## ✨ Melhorias futuras
+- Adicionar paginação na lista de repositórios.
+- Exibir estatísticas do usuário (seguidores, seguindo, estrelas).
+- Dark mode para a interface.
+
+---
