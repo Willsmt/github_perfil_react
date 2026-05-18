@@ -1,0 +1,42 @@
+/* Container da lista */
+.repos_list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Cada item da lista */
+.repos_item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.repos_item:hover {
+  transform: translateY(-5px);
+}
+
+/* Botão estilizado */
+.repos_button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.repos_button:hover {
+  background-color: #357ab8;
+  transform: scale(1.05);
+}
