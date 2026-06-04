@@ -1,6 +1,8 @@
 
 # 🔍 GitHub Perfil Finder
 
+> 🧩 **O que este projeto comprova:** React, Vite, consumo de API pública (GitHub API), tratamento de erros e estados de loading, e CSS Modules.
+
 Um projeto em **React** que permite pesquisar usuários do GitHub e visualizar seus perfis e repositórios de forma simples e intuitiva.
 
 ## 🚀 Funcionalidades
